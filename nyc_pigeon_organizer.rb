@@ -16,8 +16,9 @@ def nyc_pigeon_organizer(data)
     stats.each do |characteristic, name|
       name.each do |index|
         pigeon_org.each do |pigeon_name, value|
+          binding.pry
           if pigeon_name == index
-            binding.pry
+
           end
         end
       end
