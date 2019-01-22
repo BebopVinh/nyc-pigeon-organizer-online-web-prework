@@ -12,6 +12,8 @@ def nyc_pigeon_organizer(data)
     pigeon_org[pigeon_name] = {}
   end
 
-  binding.pry
+  data.each do |key, stats|
+    binding.pry
+  end
 
 end
